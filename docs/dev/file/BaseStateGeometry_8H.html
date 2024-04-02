@@ -1,107 +1,67 @@
-
-
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="en" data-content_root="../">
 <head>
-  <meta charset="utf-8" />
-  
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
   <title>File BaseStateGeometry.H &mdash; MAESTROeX  documentation</title>
-  
-
-  
-  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
-
-  
-  
-
-  
-  
-
-  
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/theme_overrides.css?v=10589de1" />
 
   
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/doctools.js"></script>
-    
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-
-    
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="File Maestro.H" href="Maestro_8H.html" />
     <link rel="prev" title="File BaseState.H" href="BaseState_8H.html" /> 
 </head>
 
-<body class="wy-body-for-nav">
-
-   
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-          
 
 
           
-            <a href="../index.html" class="icon icon-home"> MAESTROeX
           
-
-          
-            
-            <img src="../_static/maestroex_logo.png" class="logo" alt="Logo"/>
-          
+          <a href="../index.html" class="icon icon-home">
+            MAESTROeX
+              <img src="../_static/maestroex_logo.png" class="logo" alt="Logo"/>
           </a>
-
-          
-            
-            
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
     <div class="branch">
         Branch: <a href="../../file/BaseStateGeometry_8H.html">main</a> | <a href="../file/BaseStateGeometry_8H.html">development</a>
     </div>
 
-        </div>
-
-        
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-              
-            
-            
-              <p class="caption"><span class="caption-text">MAESTROeX basics</span></p>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">MAESTROeX basics</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../preface.html">Preface</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction to MAESTROeX</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../flowchart.html">Governing Equations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../flowchart.html#numerical-methodology">Numerical Methodology</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Using MAESTROeX</span></p>
+<p class="caption" role="heading"><span class="caption-text">Using MAESTROeX</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../addproblem.html">Adding A New Problem</a></li>
@@ -117,7 +77,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../managingjobs.html">Managing Jobs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../faq.html">Frequently Asked Questions</a></li>
 </ul>
-<p class="caption"><span class="caption-text">MAESTROeX technical details</span></p>
+<p class="caption" role="heading"><span class="caption-text">MAESTROeX technical details</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../lo_density.html">Low Density Cutoffs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../volume_discrepancy.html">Volume Discrepancy Factor</a></li>
@@ -139,103 +99,97 @@
 <li class="toctree-l1"><a class="reference internal" href="../enthalpy.html">Notes on Enthalpy</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../regtest.html">Regression Testing and Continuous Integration</a></li>
 </ul>
-<p class="caption"><span class="caption-text">API</span></p>
+<p class="caption" role="heading"><span class="caption-text">API</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../filelist.html">File list</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="BaseState_8H.html">File BaseState.H</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">File BaseStateGeometry.H</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">File BaseStateGeometry.H</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#_CPPv417BaseStateGeometry"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry17BaseStateGeometryEv"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::BaseStateGeometry()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry4InitEKiKiKN5amrex4RealEKiRKN5amrex6VectorIN5amrex8GeometryEEEKiRN5amrex8GpuArrayIN5amrex4RealEXL3EEEE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::Init()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4NK17BaseStateGeometry19ComputeCutoffCoordsERK14BaseStateArrayIN5amrex4RealEE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::ComputeCutoffCoords()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry14InitMultiLevelEKiRK14BaseStateArrayIiE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::InitMultiLevel()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry16max_radial_levelE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::max_radial_level</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry19finest_radial_levelE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::finest_radial_level</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry7nr_fineE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::nr_fine</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry7dr_fineE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::dr_fine</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry8nr_irregE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::nr_irreg</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry2nrE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::nr</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry2drE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::dr</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry8r_cc_locE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::r_cc_loc</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry10r_edge_locE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::r_edge_loc</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry25base_cutoff_density_coordE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::base_cutoff_density_coord</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry30anelastic_cutoff_density_coordE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::anelastic_cutoff_density_coord</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry31burning_cutoff_density_lo_coordE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::burning_cutoff_density_lo_coord</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry31burning_cutoff_density_hi_coordE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::burning_cutoff_density_hi_coord</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry17numdisjointchunksE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::numdisjointchunks</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry13r_start_coordE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::r_start_coord</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry11r_end_coordE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::r_end_coord</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry4nr_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::nr_d</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry4dr_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::dr_d</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry10r_cc_loc_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::r_cc_loc_d</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry12r_edge_loc_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::r_edge_loc_d</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry27base_cutoff_density_coord_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::base_cutoff_density_coord_d</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry32anelastic_cutoff_density_coord_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::anelastic_cutoff_density_coord_d</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry33burning_cutoff_density_lo_coord_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::burning_cutoff_density_lo_coord_d</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry33burning_cutoff_density_hi_coord_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::burning_cutoff_density_hi_coord_d</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry19numdisjointchunks_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::numdisjointchunks_d</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry15r_start_coord_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::r_start_coord_d</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#_CPPv4N17BaseStateGeometry13r_end_coord_dE"><code class="docutils literal notranslate"><span class="pre">BaseStateGeometry::r_end_coord_d</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="Maestro_8H.html">File Maestro.H</a></li>
-<li class="toctree-l2"><a class="reference internal" href="MaestroBCThreads_8H.html">File MaestroBCThreads.H</a></li>
 <li class="toctree-l2"><a class="reference internal" href="MaestroInletBCs_8H.html">File MaestroInletBCs.H</a></li>
 <li class="toctree-l2"><a class="reference internal" href="MaestroPlot_8H.html">File MaestroPlot.H</a></li>
 <li class="toctree-l2"><a class="reference internal" href="PhysBCFunctMaestro_8H.html">File PhysBCFunctMaestro.H</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Src_nd_files.html">Src_nd</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../classlist.html">Class list</a></li>
 </ul>
-<p class="caption"><span class="caption-text">References</span></p>
+<p class="caption" role="heading"><span class="caption-text">References</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../zreferences.html">References</a></li>
 </ul>
 
-            
-          
         </div>
-        
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">MAESTROeX</a>
-        
       </nav>
 
-
       <div class="wy-nav-content">
-        
         <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
+          <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-    
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-        
-          <li><a href="../filelist.html">File list</a> &raquo;</li>
-        
-      <li>File BaseStateGeometry.H</li>
-    
-    
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../filelist.html">File list</a></li>
+      <li class="breadcrumb-item active">File BaseStateGeometry.H</li>
       <li class="wy-breadcrumbs-aside">
-        
-          
             <a href="../_sources/file/BaseStateGeometry_8H.rst.txt" rel="nofollow"> View page source</a>
-          
-        
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
-  <div class="section" id="file-basestategeometry-h">
-<h1>File BaseStateGeometry.H<a class="headerlink" href="#file-basestategeometry-h" title="Permalink to this headline">¶</a></h1>
+             
+  <section id="file-basestategeometry-h">
+<h1>File BaseStateGeometry.H<a class="headerlink" href="#file-basestategeometry-h" title="Link to this heading"></a></h1>
 <dl class="cpp class">
 <dt class="sig sig-object cpp" id="_CPPv417BaseStateGeometry">
 <span id="_CPPv317BaseStateGeometry"></span><span id="_CPPv217BaseStateGeometry"></span><span id="BaseStateGeometry"></span><span class="target" id="classBaseStateGeometry"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">BaseStateGeometry</span></span></span><br /></dt>
-<dd><em>#include &lt;BaseStateGeometry.H&gt;</em><div class="breathe-sectiondef docutils container">
+<dd><div class="docutils container">
+<em>#include &lt;BaseStateGeometry.H&gt;</em></div>
+<div class="breathe-sectiondef docutils container">
 <p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4N17BaseStateGeometry17BaseStateGeometryEv">
-<span id="_CPPv3N17BaseStateGeometry17BaseStateGeometryEv"></span><span id="_CPPv2N17BaseStateGeometry17BaseStateGeometryEv"></span><span id="BaseStateGeometry::BaseStateGeometry"></span><span class="target" id="classBaseStateGeometry_1af741f868354fe47e1a0e4633bac72878"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">BaseStateGeometry</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><br /></dt>
+<span id="_CPPv3N17BaseStateGeometry17BaseStateGeometryEv"></span><span id="_CPPv2N17BaseStateGeometry17BaseStateGeometryEv"></span><span id="BaseStateGeometry::BaseStateGeometry"></span><span class="target" id="classBaseStateGeometry_1a3ed0ecfd16768ad972c6ce88961bf1c3"></span><span class="sig-name descname"><span class="n"><span class="pre">BaseStateGeometry</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">default</span></span><br /></dt>
 <dd></dd></dl>
 
 <dl class="cpp function">
@@ -244,8 +198,8 @@
 <dd></dd></dl>
 
 <dl class="cpp function">
-<dt class="sig sig-object cpp" id="_CPPv4N17BaseStateGeometry19ComputeCutoffCoordsERK14BaseStateArrayIN5amrex4RealEE">
-<span id="_CPPv3N17BaseStateGeometry19ComputeCutoffCoordsERK14BaseStateArrayIN5amrex4RealEE"></span><span id="_CPPv2N17BaseStateGeometry19ComputeCutoffCoordsERK14BaseStateArrayIN5amrex4RealEE"></span><span id="BaseStateGeometry::ComputeCutoffCoords__BaseStateArray:Real:CR"></span><span class="target" id="classBaseStateGeometry_1aa2a463a0e09bb908d25fd1d1bbbba523"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ComputeCutoffCoords</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="BaseState_8H.html#_CPPv4I0E14BaseStateArray" title="BaseStateArray"><span class="n"><span class="pre">BaseStateArray</span></span></a><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">amrex</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Real</span></span><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rho0</span></span><span class="sig-paren">)</span><br /></dt>
+<dt class="sig sig-object cpp" id="_CPPv4NK17BaseStateGeometry19ComputeCutoffCoordsERK14BaseStateArrayIN5amrex4RealEE">
+<span id="_CPPv3NK17BaseStateGeometry19ComputeCutoffCoordsERK14BaseStateArrayIN5amrex4RealEE"></span><span id="_CPPv2NK17BaseStateGeometry19ComputeCutoffCoordsERK14BaseStateArrayIN5amrex4RealEE"></span><span id="BaseStateGeometry::ComputeCutoffCoords__BaseStateArray:Real:CRC"></span><span class="target" id="classBaseStateGeometry_1ae9897ed894fd380efd5dc904f3b97436"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ComputeCutoffCoords</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="BaseState_8H.html#_CPPv4I0E14BaseStateArray" title="BaseStateArray"><span class="n"><span class="pre">BaseStateArray</span></span></a><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">amrex</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Real</span></span><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rho0</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><br /></dt>
 <dd></dd></dl>
 
 <dl class="cpp function">
@@ -399,54 +353,37 @@
 </div>
 </dd></dl>
 
-</div>
+</section>
 
 
            </div>
-           
           </div>
-          <footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="Maestro_8H.html" class="btn btn-neutral float-right" title="File Maestro.H" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="BaseState_8H.html" class="btn btn-neutral float-left" title="File BaseState.H" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Maestro_8H.html" class="btn btn-neutral float-right" title="File Maestro.H" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        &#169; Copyright 2018-2020, MAESTROeX development tem.
-
-    </p>
+    <p>&#169; Copyright 2018-2023, MAESTROeX development tem.</p>
   </div>
-    
-    
-    
-    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
-    
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
     <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    
-    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
 
 </footer>
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-    
+  </script>  
 
 
 </body>
